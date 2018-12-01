@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #777777;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 80px;
+    border-bottom: 2px solid #cccccc;
+}
+
+h1 {
+    float: left;
+    color: white;
+    background: #4aaaa5;
+    line-height: 79px;
+    margin-top: 0;
+    margin-left: 160px;
+}
+
+h1 span {
+    background-color: #4aaaa5;
+}
+
+.topnav {
+    float: right;
+    background-color: white;
+    padding-right: auto;
+    margin-top: 2%;
+    margin-right: 160px;
+}
+
+.topnav a {
+    color:#cccccc;
+    text-align: center;
+    font-size: 17px:
+}
+
+#fixed {
+    position: absolute;
+    width: 886px;
+    margin-left: 160px;
+    margin-right: 160px;
+    background-color: white;
+    margin-top: 110px;
+    height: 70%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 10%;
+    background-color: grey;
+    border-top: 5px solid #4aaaa5;
+}
+
+h2 {
+    margin-left:40px;
+    color: #4aaaa5;
+}
+
+p {
+    float: right;
+    margin-left: 250px;
+    margin-right: 40px;
+}
+
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #cccccc;
+}
+
+img {
+    float: left;
+    margin-left: 40px;
+}
+
+.form-group{
+    margin-left: 40px;
+
+} 
+
+.form-control {
+    height: 30px;
+    width: 806px;
+}
+
+button {
+    margin-left: 40px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
